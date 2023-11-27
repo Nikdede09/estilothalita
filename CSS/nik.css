@@ -1,0 +1,97 @@
+/* Estilos globais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+header {
+    background-color: #653979;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-top: -20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #ffffff;
+    background: linear-gradient(rgb(48, 8, 158),rgb(129, 95, 193));
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    main {
+        padding: 10px;
+    }
+}
+/* Estilos para a navegação */
+nav {
+    background-color: #653979; /* Cor de fundo da navegação */
+    text-align: center;
+    padding: 10px 0;
+    border-style: double;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    margin: 0 20px; /* Espaço entre os itens de navegação */
+}
+
+a {
+    text-decoration: none;
+    color: #ecf0f1; /* Cor do texto da navegação */
+    font-size: 18px;
+    transition: color 0.3s; /* Transição suave de cor */
+}
+
+a:hover {
+    color: #e74c3c; /* Cor do texto quando hover (passa o mouse) */
+}
+
+
+
+footer .copyringht-text {
+    color: #fcfcfc;
+    background-color: hsl(60, 18%, 86%);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    letter-spacing: 0.4px;
+    line-height: 22px;
+}
+
+
+
